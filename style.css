@@ -16,11 +16,12 @@ body {
   overflow-x: hidden;
 }
 
-.background-hero {
+header {
   background-image: url(./assets/image-hero-mobile.jpg);
   width: 37.5rem;
   height: 65rem;
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
+  align-items: center;
+  width: 100%;
 }
