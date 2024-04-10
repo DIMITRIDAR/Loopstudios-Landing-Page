@@ -25,3 +25,12 @@ header {
   align-items: center;
   width: 100%;
 }
+
+.burger-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2.4rem;
+  padding-top: 4rem;
+  gap: 15.9rem;
+}
