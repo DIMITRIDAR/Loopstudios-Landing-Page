@@ -34,3 +34,13 @@ header {
   padding-top: 4rem;
   gap: 15.9rem;
 }
+
+label.logo {
+  width: 14.4rem;
+  height: 2.4rem;
+}
+
+header ul {
+  float: right;
+  display: block;
+}
