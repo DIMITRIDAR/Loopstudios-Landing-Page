@@ -58,3 +58,34 @@ header ul li a {
   color: #fff;
   text-decoration: none;
 }
+
+a.active,
+a:hover {
+  background: #000;
+  transition: 0.5s;
+}
+
+.check {
+  display: none;
+}
+
+.checkbutton {
+  display: block;
+}
+
+ul {
+  position: fixed;
+  width: 100%;
+  background: #000000;
+  top: 8rem;
+  left: -100%;
+  text-align: center;
+  transition: all 0.5s;
+}
+
+header ul li {
+  display: block;
+}
+.check:checked ~ ul {
+  left: 0;
+}
