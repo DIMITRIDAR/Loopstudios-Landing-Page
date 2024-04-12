@@ -89,3 +89,14 @@ header ul li {
 .check:checked ~ ul {
   left: 0;
 }
+
+.main-text {
+  width: 32.7rem;
+  height: 19.6rem;
+  border: 0.2rem solid #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 2.4rem;
+  margin-top: 14rem;
+}
