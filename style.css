@@ -100,3 +100,13 @@ header ul li {
   margin: 2.4rem;
   margin-top: 14rem;
 }
+
+.main-text h1 {
+  color: #fff;
+  font-family: "Josefin Sans";
+  font-size: 4rem;
+  font-weight: 300;
+  line-height: 3.8rem;
+  text-transform: uppercase;
+  padding: 2.4rem;
+}
