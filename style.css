@@ -69,7 +69,7 @@ a:hover {
   display: none;
 }
 
-.checkbutton {
+.check-button {
   display: block;
 }
 
@@ -109,4 +109,19 @@ header ul li {
   line-height: 3.8rem;
   text-transform: uppercase;
   padding: 2.4rem;
+}
+
+.all-interactive {
+  display: flex;
+  flex-direction: column;
+  margin-top: 9.6rem;
+  align-items: center;
+}
+
+.interactive-image {
+  background-image: url(./assets/image-interactive-mobile.jpg);
+  background-repeat: no-repeat;
+  width: 90%;
+  height: 22.4rem;
+  background-size: cover;
 }
