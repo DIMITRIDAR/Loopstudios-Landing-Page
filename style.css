@@ -163,55 +163,37 @@ header ul li {
 
 .deep-earth {
   background-image: url(./assets/image-deep-earth-mobile.jpg);
-  background-repeat: no-repeat;
-  height: 24rem;
-  background-size: contain;
 }
 
 .night-arcade {
   background-image: url(./assets/image-night-arcade-mobile.jpg);
-  background-repeat: no-repeat;
-  height: 24rem;
-  background-size: contain;
 }
 
 .soccer-team {
   background-image: url(./assets/image-soccer-team-mobile.jpg);
-  background-repeat: no-repeat;
-  height: 24rem;
-  background-size: contain;
 }
 
 .the-grid {
   background-image: url(./assets/image-grid-mobile.jpg);
-  background-repeat: no-repeat;
-  height: 24rem;
-  background-size: contain;
 }
 
 .from-up {
   background-image: url(./assets/image-from-above-mobile.jpg);
-  background-repeat: no-repeat;
-  height: 24rem;
-  background-size: contain;
 }
 
 .pocket-borealis {
   background-image: url(./assets/image-pocket-borealis-mobile.jpg);
-  background-repeat: no-repeat;
-  height: 24rem;
-  background-size: contain;
 }
 
 .the-curiosity {
   background-image: url(./assets/image-curiosity-mobile.jpg);
-  background-repeat: no-repeat;
-  height: 24rem;
-  background-size: contain;
 }
 
 .make-fisheye {
   background-image: url(./assets/image-fisheye-mobile.jpg);
+}
+
+.gem {
   background-repeat: no-repeat;
   height: 24rem;
   background-size: contain;
