@@ -195,3 +195,17 @@ header ul li {
   height: 24rem;
   background-size: contain;
 }
+
+.pocket-borealis {
+  background-image: url(./assets/image-pocket-borealis-mobile.jpg);
+  background-repeat: no-repeat;
+  height: 24rem;
+  background-size: contain;
+}
+
+.the-curiosity {
+  background-image: url(./assets/image-curiosity-mobile.jpg);
+  background-repeat: no-repeat;
+  height: 24rem;
+  background-size: contain;
+}
