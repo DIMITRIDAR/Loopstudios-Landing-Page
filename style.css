@@ -209,3 +209,10 @@ header ul li {
   height: 24rem;
   background-size: contain;
 }
+
+.make-fisheye {
+  background-image: url(./assets/image-fisheye-mobile.jpg);
+  background-repeat: no-repeat;
+  height: 24rem;
+  background-size: contain;
+}
