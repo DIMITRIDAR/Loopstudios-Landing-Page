@@ -181,3 +181,10 @@ header ul li {
   height: 24rem;
   background-size: contain;
 }
+
+.the-grid {
+  background-image: url(./assets/image-grid-mobile.jpg);
+  background-repeat: no-repeat;
+  height: 24rem;
+  background-size: contain;
+}
