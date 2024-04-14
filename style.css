@@ -188,3 +188,10 @@ header ul li {
   height: 24rem;
   background-size: contain;
 }
+
+.from-up {
+  background-image: url(./assets/image-from-above-mobile.jpg);
+  background-repeat: no-repeat;
+  height: 24rem;
+  background-size: contain;
+}
