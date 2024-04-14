@@ -136,3 +136,16 @@ header ul li {
   line-height: 3.2rem;
   text-transform: uppercase;
 }
+
+.text {
+  color: #000;
+  text-align: center;
+  font-family: "Alata";
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 2.5rem;
+  opacity: 0.4994;
+  margin-top: 1.6rem;
+  padding: 1rem;
+  width: 31ch;
+}
