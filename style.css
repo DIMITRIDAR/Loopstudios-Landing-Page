@@ -195,6 +195,17 @@ header ul li {
 
 .gem {
   background-repeat: no-repeat;
-  height: 24rem;
+  height: 12rem;
   background-size: contain;
+}
+
+.creations-pictures {
+  padding: 2.4rem;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  grid-auto-rows: auto;
+  gap: 2.4rem;
+  grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
 }
