@@ -250,3 +250,17 @@ button {
   margin: auto;
   margin-top: 1rem;
 }
+
+footer {
+  background-color: #000;
+  margin-top: 9.6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.information {
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
