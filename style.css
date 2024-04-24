@@ -200,7 +200,7 @@ header ul li {
 }
 
 .creations-pictures {
-  padding: 2.4rem;
+  padding-left: 3rem;
   display: grid;
   justify-content: center;
   align-items: center;
