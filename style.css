@@ -259,6 +259,14 @@ footer {
   align-items: center;
 }
 
+.footer-main {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5.6rem;
+
+  gap: 48px;
+}
+
 .information {
   align-items: center;
   text-align: center;
@@ -268,13 +276,14 @@ footer {
 .footer-logo {
   width: 14.4rem;
   height: 2.4rem;
-  margin-top: 5.6rem;
 }
 
 .about-information {
   display: flex;
   flex-direction: column;
   margin-top: 3.2rem;
+  gap: 1.6rem;
+  align-items: center;
 }
 
 .about-information p {
