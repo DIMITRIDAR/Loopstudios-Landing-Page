@@ -263,12 +263,12 @@ footer {
   display: flex;
   flex-direction: column;
   margin-top: 5.6rem;
-
+  justify-content: center;
+  align-items: center;
   gap: 48px;
 }
 
 .information {
-  align-items: center;
   text-align: center;
   color: #fff;
 }
@@ -292,4 +292,18 @@ footer {
   font-family: "Alata";
   font-weight: 400;
   line-height: 2.5rem;
+}
+
+.social-footer {
+  text-align: center;
+}
+
+.social-footer p {
+  color: #fff;
+  font-family: "Alata";
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 2.5rem;
+  opacity: 0.5;
+  padding-bottom: 5.6rem;
 }
