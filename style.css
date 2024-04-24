@@ -295,7 +295,10 @@ footer {
 }
 
 .social-footer {
+  display: flex;
+  flex-direction: column;
   text-align: center;
+  gap: 2rem;
 }
 
 .social-footer p {
@@ -306,4 +309,8 @@ footer {
   line-height: 2.5rem;
   opacity: 0.5;
   padding-bottom: 5.6rem;
+}
+
+.social-img {
+  gap: 2rem;
 }
