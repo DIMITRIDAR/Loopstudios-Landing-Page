@@ -84,7 +84,8 @@ ul {
   background: #000000;
   top: 8rem;
   left: -100%;
-  text-align: center;
+  text-align: start;
+  padding-left: 2.4rem;
   transition: all 0.5s;
 }
 
