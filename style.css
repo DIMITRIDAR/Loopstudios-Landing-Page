@@ -35,7 +35,7 @@ header {
   gap: 15.9rem;
 }
 
-.header-logo {
+label.logo {
   width: 14.4rem;
   height: 2.4rem;
 }
@@ -43,10 +43,13 @@ header {
 header ul {
   float: right;
   display: block;
+  margin-right: 2rem;
 }
 
 header ul li {
   display: inline-block;
+  line-height: 8rem;
+  margin: 0 0.5rem;
 }
 
 header ul li a {
@@ -57,6 +60,8 @@ header ul li a {
   text-transform: uppercase;
   color: #fff;
   text-decoration: none;
+  letter-spacing: 0;
+  border-radius: 0.3rem;
 }
 
 a.active,
@@ -65,7 +70,7 @@ a:hover {
   transition: 0.5s;
 }
 
-.check {
+#check {
   display: none;
 }
 
@@ -86,7 +91,7 @@ ul {
 header ul li {
   display: block;
 }
-.check:checked ~ ul {
+#check:checked ~ ul {
   left: 0;
 }
 
