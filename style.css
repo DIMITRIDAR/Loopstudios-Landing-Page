@@ -19,11 +19,11 @@ body {
 header {
   background-image: url(./assets/image-hero-mobile.jpg);
   width: 37.5rem;
-  height: 65rem;
   background-repeat: no-repeat;
   background-size: cover;
   align-items: center;
   width: 100%;
+  padding-bottom: 21rem;
 }
 
 .burger-div {
@@ -213,6 +213,7 @@ header ul li {
   grid-auto-rows: auto;
   gap: 2.4rem;
   grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+  align-self: center;
 }
 
 .description {
@@ -320,4 +321,13 @@ footer li a {
 }
 
 @media only screen and(min-width:90rem) {
+  header {
+    background-image: url(./assets/image-hero-desktop.jpg);
+    width: 37.5rem;
+    height: 65rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    width: 100%;
+  }
 }
