@@ -18,7 +18,7 @@ body {
 
 header {
   background-image: url(./assets/image-hero-mobile.jpg);
-  width: 37.5rem;
+  width: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
   align-items: center;
@@ -130,6 +130,7 @@ header ul li {
   height: 22.4rem;
   background-position: center;
   background-size: cover;
+  max-width: 50rem;
 }
 
 .heading {
@@ -154,7 +155,8 @@ header ul li {
   opacity: 0.4994;
   margin-top: 1.6rem;
   padding: 1rem;
-  width: 31ch;
+  padding: 0 4.8rem;
+  max-width: 80ch;
 }
 
 .creations-pictures h2 {
@@ -204,7 +206,6 @@ header ul li {
   background-repeat: no-repeat;
   height: 12rem;
   background-size: cover;
-  max-width: 70rem;
 }
 
 .creations-pictures {
@@ -214,7 +215,8 @@ header ul li {
   align-items: center;
   grid-auto-rows: auto;
   gap: 2.4rem;
-  grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+  grid-template-columns: minmax(100%, 1fr);
+  max-width: 50rem;
 }
 
 .description {
@@ -279,6 +281,13 @@ footer {
   height: 2.4rem;
 }
 
+footer ol {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  margin-top: 3.2rem;
+}
+
 footer ol li a {
   color: #fff;
   font-size: 1.5rem;
@@ -286,9 +295,7 @@ footer ol li a {
   font-weight: 400;
   line-height: 2.5rem;
   display: flex;
-  flex-direction: column;
-  gap: 1.6rem;
-  align-items: center;
+  justify-content: center;
   text-decoration: none;
 }
 
