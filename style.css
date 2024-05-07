@@ -325,5 +325,16 @@ footer ol li a {
 @media only screen and (min-width: 90rem) {
   header {
     background-image: url(./assets/image-hero-desktop.jpg);
+    flex: none;
+  }
+
+  .burger-div {
+    padding: 16.5rem;
+    padding-top: 6.4rem;
+  }
+
+  label.logo {
+    width: 19.2rem;
+    height: 3.2rem;
   }
 }
