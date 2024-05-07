@@ -329,12 +329,35 @@ footer ol li a {
   }
 
   .burger-div {
-    padding: 16.5rem;
+    padding: 6.4rem 16.5rem 0;
     padding-top: 6.4rem;
   }
 
   label.logo {
     width: 19.2rem;
     height: 3.2rem;
+  }
+  header ul {
+    display: flex;
+    gap: 3.2rem;
+  }
+
+  header ul li a {
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-transform: capitalize;
+  }
+
+  a.active {
+    background: none;
+  }
+  .check-button {
+    display: none;
+  }
+
+  ul {
+    position: static;
+    width: auto;
+    background: none;
   }
 }
