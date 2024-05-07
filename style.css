@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;1,300&display=swap");
 
 html {
-  font-size: 10px;
+  font-size: 62.5%;
 }
 
 * {
@@ -284,7 +284,7 @@ footer {
   height: 2.4rem;
 }
 
-footer li a {
+footer ol li a {
   color: #fff;
   font-size: 1.5rem;
   font-family: "Alata";
@@ -320,14 +320,8 @@ footer li a {
   gap: 2rem;
 }
 
-@media only screen and(min-width:90rem) {
+@media only screen and (min-width: 90rem) {
   header {
     background-image: url(./assets/image-hero-desktop.jpg);
-    width: 37.5rem;
-    height: 65rem;
-    background-repeat: no-repeat;
-    background-size: cover;
-    align-items: center;
-    width: 100%;
   }
 }
