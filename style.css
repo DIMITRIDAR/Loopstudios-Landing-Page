@@ -128,8 +128,8 @@ header ul li {
   background-repeat: no-repeat;
   width: 90%;
   height: 22.4rem;
+  background-position: center;
   background-size: cover;
-  max-width: 90rem;
 }
 
 .heading {
@@ -203,7 +203,8 @@ header ul li {
 .gem {
   background-repeat: no-repeat;
   height: 12rem;
-  background-size: contain;
+  background-size: cover;
+  max-width: 70rem;
 }
 
 .creations-pictures {
@@ -214,7 +215,6 @@ header ul li {
   grid-auto-rows: auto;
   gap: 2.4rem;
   grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
-  align-self: center;
 }
 
 .description {
