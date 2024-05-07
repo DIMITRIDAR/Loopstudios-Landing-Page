@@ -381,8 +381,26 @@ footer ol li a {
 
   .interactive-image {
     background-image: url(./assets/image-interactive-desktop.jpg);
-    width: 90%;
+    background-size: contain;
+    width: 70rem;
     height: 50rem;
-    padding-right: 10rem;
+  }
+
+  .for-desktop {
+    background: #fff;
+    margin-top: 8rem;
+    margin-left: -13rem;
+  }
+
+  .heading {
+    font-size: 4.8rem;
+    line-height: 4.8rem;
+    width: 15ch;
+  }
+
+  .text {
+    margin-top: 2.5rem;
+    width: 56ch;
+    text-align: start;
   }
 }
