@@ -329,7 +329,7 @@ footer ol li a {
   }
 
   .burger-div {
-    padding: 6.4rem 3rem 0;
+    padding: 6.4rem 16rem 0;
     padding-top: 6.4rem;
   }
 
@@ -365,11 +365,24 @@ footer ol li a {
     width: 65rem;
     height: 27.8rem;
     margin-top: 13rem;
+    margin-left: 16rem;
   }
 
   .main-text h1 {
     font-size: 7.2rem;
     line-height: 7rem;
     width: 13ch;
+  }
+
+  .all-interactive {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .interactive-image {
+    background-image: url(./assets/image-interactive-desktop.jpg);
+    width: 90%;
+    height: 50rem;
+    padding-right: 10rem;
   }
 }
