@@ -445,4 +445,9 @@ footer ol li a {
   .make-fisheye {
     background-image: url(./assets/image-fisheye-desktop.jpg);
   }
+
+  .gem {
+    width: 25.6rem;
+    height: 45rem;
+  }
 }
