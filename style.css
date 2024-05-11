@@ -485,4 +485,12 @@ footer ol li a {
   .four {
     width: 11ch;
   }
+
+  footer {
+    margin-top: 18.4rem;
+    display: flex;
+    flex-direction: row;
+    gap: 45.8rem;
+    padding-top: 5.6rem;
+  }
 }
