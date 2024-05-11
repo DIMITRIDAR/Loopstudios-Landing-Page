@@ -403,4 +403,46 @@ footer ol li a {
     width: 56ch;
     text-align: start;
   }
+
+  .creations-pictures {
+    padding: 2.4rem;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-auto-rows: auto;
+    gap: 2.4rem;
+    grid-template-columns: minmax(100%, 1fr);
+    max-width: 50rem;
+  }
+  .deep-earth {
+    background-image: url(./assets/image-deep-earth-desktop.jpg);
+  }
+
+  .night-arcade {
+    background-image: url(./assets/);
+  }
+
+  .soccer-team {
+    background-image: url(./assets/image-soccer-team-mobile.jpg);
+  }
+
+  .the-grid {
+    background-image: url(./assets/image-grid-mobile.jpg);
+  }
+
+  .from-up {
+    background-image: url(./assets/image-from-above-mobile.jpg);
+  }
+
+  .pocket-borealis {
+    background-image: url(./assets/image-pocket-borealis-mobile.jpg);
+  }
+
+  .the-curiosity {
+    background-image: url(./assets/image-curiosity-mobile.jpg);
+  }
+
+  .make-fisheye {
+    background-image: url(./assets/image-fisheye-mobile.jpg);
+  }
 }
