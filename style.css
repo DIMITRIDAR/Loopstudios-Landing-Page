@@ -419,30 +419,30 @@ footer ol li a {
   }
 
   .night-arcade {
-    background-image: url(./assets/);
+    background-image: url(./assets/image-night-arcade\ -\ desktop.jpg);
   }
 
   .soccer-team {
-    background-image: url(./assets/image-soccer-team-mobile.jpg);
+    background-image: url(./assets/image-soccer-team\ -\ desktop.jpg);
   }
 
   .the-grid {
-    background-image: url(./assets/image-grid-mobile.jpg);
+    background-image: url(./assets/image-grid-desktop.jpg);
   }
 
   .from-up {
-    background-image: url(./assets/image-from-above-mobile.jpg);
+    background-image: url(./assets/image-from-abovedesktop.jpg);
   }
 
   .pocket-borealis {
-    background-image: url(./assets/image-pocket-borealis-mobile.jpg);
+    background-image: url(./assets/image-pocket-borealis\ -\ desktop.jpg);
   }
 
   .the-curiosity {
-    background-image: url(./assets/image-curiosity-mobile.jpg);
+    background-image: url(./assets/image-curiosity-desktop.jpg);
   }
 
   .make-fisheye {
-    background-image: url(./assets/image-fisheye-mobile.jpg);
+    background-image: url(./assets/image-fisheye-desktop.jpg);
   }
 }
