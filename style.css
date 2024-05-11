@@ -244,7 +244,7 @@ header ul li {
   width: 10ch;
 }
 
-button {
+.see-all {
   text-align: center;
   width: 15.7rem;
   height: 4rem;
@@ -258,6 +258,10 @@ button {
   background-color: #fff;
   margin: auto;
   margin-top: 1rem;
+}
+
+.div-for-button {
+  text-align: center;
 }
 
 footer {
@@ -449,5 +453,16 @@ footer ol li a {
   .gem {
     width: 25.6rem;
     height: 45rem;
+  }
+
+  .creations-pictures {
+    padding: 2.4rem;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-auto-rows: auto;
+    gap: 2.4rem;
+    grid-template-columns: repeat(4, 1fr);
+    max-width: 50rem;
   }
 }
