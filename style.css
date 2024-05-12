@@ -494,6 +494,10 @@ footer ol li a {
     padding-top: 6rem;
   }
 
+  .inforamtion {
+    margin-top: -6rem;
+  }
+
   footer ol {
     display: flex;
     flex-direction: row;
@@ -506,18 +510,6 @@ footer ol li a {
   }
 
   .social-footer p {
-    color: #fff;
-    font-family: "Alata";
-    font-size: 1.5rem;
-    font-weight: 400;
-    line-height: 2.5rem;
-    opacity: 0.5;
     padding-bottom: 5.6rem;
-  }
-
-  .social-img {
-    display: flex;
-    justify-content: center;
-    gap: 2rem;
   }
 }
