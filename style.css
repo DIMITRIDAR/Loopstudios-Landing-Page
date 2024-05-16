@@ -213,8 +213,6 @@ header ul li {
 
 .creations-pictures {
   display: grid;
-  justify-content: center;
-  align-items: center;
   grid-auto-rows: auto;
   gap: 2.4rem;
   grid-template-columns: minmax(100%, 1fr);
@@ -423,8 +421,6 @@ footer ol li a {
 
   .creations-pictures {
     display: grid;
-    justify-content: center;
-    align-items: center;
     grid-auto-rows: auto;
     gap: 3rem;
     grid-template-columns: repeat(4, 1fr);
