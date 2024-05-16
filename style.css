@@ -428,12 +428,20 @@ footer ol li a {
     order: 3;
   }
 
-  .creations-pictures:hover {
+  .uno:hover,
+  .dos:hover,
+  .tres:hover,
+  .cuatro:hover,
+  .cinco:hover,
+  .seis:hover,
+  .siete:hover,
+  .ocho:hover {
     transition: opacity 0.3s ease;
     opacity: 0.4;
     cursor: pointer;
     transition: 0.3s;
   }
+
   .deep-earth {
     background-image: url(./assets/image-deep-earth-desktop.jpg);
   }
