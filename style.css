@@ -429,7 +429,8 @@ footer ol li a {
   }
 
   .creations-pictures:hover {
-    background: rgba(255, 255, 255, 0.75);
+    transition: opacity 0.3s ease;
+    opacity: 0.4;
     cursor: pointer;
     transition: 0.3s;
   }
@@ -503,6 +504,10 @@ footer ol li a {
 
   .one {
     width: 12ch;
+  }
+
+  .three {
+    width: 13ch;
   }
 
   .four {
