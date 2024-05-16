@@ -443,6 +443,10 @@ footer ol li a {
   }
 
   .deep-earth {
+    color: black;
+  }
+
+  .deep-earth {
     background-image: url(./assets/image-deep-earth-desktop.jpg);
   }
 
