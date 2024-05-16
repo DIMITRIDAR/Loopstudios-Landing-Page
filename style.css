@@ -468,8 +468,16 @@ footer ol li a {
     max-width: 100%;
   }
 
-  .div-for-button {
-    order: -1;
+  .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+    width: 130rem;
+  }
+
+  .wrapper h2 {
+    order: 1;
   }
 
   .description {
