@@ -220,6 +220,7 @@ header ul li {
   grid-template-columns: minmax(100%, 1fr);
   max-width: 50rem;
   margin-top: 4.8rem;
+  padding: 2.4rem;
 }
 
 .description {
@@ -429,6 +430,12 @@ footer ol li a {
     grid-template-columns: repeat(4, 1fr);
     max-width: 100%;
     order: 3;
+  }
+
+  .creations-pictures:hover {
+    background: rgba(255, 255, 255, 0.75);
+    cursor: pointer;
+    transition: 0.3s;
   }
   .deep-earth {
     background-image: url(./assets/image-deep-earth-desktop.jpg);
